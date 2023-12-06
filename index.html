@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Switch!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center" id="SB">
+        <button class="center2" id="S" onclick="Switch()">
+            
+        </button>
+    </div>
+    <script>
+        const sw = document.querySelector("#S")
+        const aud = new Audio("ls.mp3")
+        function Switch() {
+            aud.play();
+            
+            window.location.replace("https://www.youtube.com/watch?v=JAtI-svbLGE");
+        };
+    </script>
+</body>
+</html>
